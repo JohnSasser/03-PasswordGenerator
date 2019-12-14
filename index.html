@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>03 - Password Generator</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <style>
+        /* place holder for testing */
+    </style>
+</head>
+
+<body>
+
+    <div class="container parentContainer">
+        <div class="container headContainer">
+            <div class="row">
+                <div class="col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                    <h1>
+                        Password Generator
+                    </h1>
+                    <h4>
+                        Generate your own random password
+                    </h4>
+                </div>
+            </div>
+        </div>
+        <hr size="3" color="#000" width="100%" />
+        <div class="container formContainer">
+            <div class="row">
+                <div class="col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                    <div class="form-group"><br>
+                        <label for="FormControlInput1">Select A Password Length
+                            Between 8 & 128.
+                        </label>
+                        <input type="email" class="form-control" id="characterLengthInput"
+                            placeholder="8 - 128 Characters">
+                    </div><br>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="lowerCaseCheckbox">
+                        <label class="form-check-label" for="lowerCaseCheckbox">
+                            Lower-Case Characters
+                        </label>
+                    </div><br>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="upperCaseCheckbox">
+                        <label class="form-check-label" for="upperCaseCheckbox">
+                            Upper-Case Characters
+                        </label>
+                    </div><br>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="numericalCheckbox">
+                        <label class="form-check-label" for="numericalCheckbox">
+                            Numerical Characters
+                        </label>
+                    </div><br>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="specialCheckbox">
+                        <label class="form-check-label" for="specialCheckbox">
+                            Special Characters
+                        </label>
+                    </div><br>
+                </div>
+            </div>
+        </div>
+        <hr size="3" color="#000" width="100%" />
+
+        <div class="container outputContainer">
+            <div class="row">
+                <div class="col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Your new password is</label>
+                        <input class="form-control" type="text" id="passwordOutput" placeholder="..." readonly>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container buttonContainer">
+            <div class="row">
+                <div class="col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                    <input class="btn btn-secondary btn-lg m-2" type="submit" value="Generate">
+                    <input class="btn btn-secondary btn-lg m-2" type="submit" value="Copy To Clipboard">
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        John B Sasser
+        &COPY;
+    </footer>
+    <script src="./javascript/script.js" async defer></script>
+</body>
+
+</html>
