@@ -17,7 +17,10 @@ var randomFunction = {
 };
 // console.log(randomFunc);
 clipboardEl.addEventListener("click", function() {
-	var copyText = document.getElementById("#passwordOutput");
+	var copyText = document.getElementById("passwordOutput");
+	copyText.select();
+	/*For mobile devices*/
+	copyText.setSelectionRange(0, 99999);
 	/* Copy the text inside the text field */
 	document.execCommand("copy");
 	/* Alert the copied text */
