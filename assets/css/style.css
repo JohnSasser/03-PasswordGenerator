@@ -47,6 +47,7 @@ body {
 #lengthInput,
 #passwordOutput {
 	text-align: center;
+	font-size: 20px;
 }
 #lengthInput {
 	/* width: 100px; */
