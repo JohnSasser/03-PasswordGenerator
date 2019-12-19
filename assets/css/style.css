@@ -5,6 +5,10 @@ body {
 h1 {
 	font-size: 55px;
 }
+h3 {
+	font-size: 30px;
+	text-shadow: -0.8px -0.8px 0px whitesmoke;
+}
 .container {
 	margin: 15px auto;
 	text-align: center;

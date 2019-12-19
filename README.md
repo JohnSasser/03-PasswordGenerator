@@ -4,16 +4,17 @@ This is a password generator powered with html, css and javascript
 
 # 03-Homework / .js built Password Generator
 
-This javascript powered Password Generator will create a randomized password between 8 & 128 characters.
+DISCLAIMER: "Math.random() does not provide cryptographically secure random numbers. Do not use them for anything related to security. Use the Web Crypto API instead, and more precisely the window.crypto.getRandomValues() method." (MDN Web Docs)
+
+This javascript powered Password Generator will create a randomized password between 8 & 128 characters. As stated above, do not use this current version for any personal security purposes. I will be updating the password generator in the future to include a true, Crypto API secure random, generating method.
 
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-- direct to the address [github Bootstrap Portfolio Repo](https://github.com/JohnSasser/03-PasswordGenerator)
-- click on the green "Clone or download" button on the right hand side of the viewport.
+- "Clone or download" locally to your machine.
 - open your git bash or terminal and clone the repository locally on your computer.
-- open and view from here.
+- open and view from any code editor.
 
 OR
 
@@ -30,13 +31,12 @@ What things you need to install the software and how to install them:
 ## Built With:
 
 - HTML5
-- Bootstrap
+- Bootstrap 4
 - Javascript
 
 ## contributing
 
 - Please feel free to fork and pull anytime!
-- Please consult me before any major changes.
 
 ## Authors
 
@@ -45,5 +45,3 @@ What things you need to install the software and how to install them:
 ## License
 
 This project is licensed under the MIT License - see the LICENSE.md file for details
-
-## Acknowledgments
