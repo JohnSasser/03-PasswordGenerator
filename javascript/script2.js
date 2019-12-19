@@ -58,6 +58,4 @@ function generatePassword(lower, upper, numerical, special, length) {
 	for (i = 0; i < length; i++)
 		newPassword += resultArr[Math.floor(Math.random() * resultArr.length)];
 	return newPassword;
-	// for(i = 0;i > length; i++)
-	// newPassword +=
 }
